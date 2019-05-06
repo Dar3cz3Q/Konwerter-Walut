@@ -7,7 +7,7 @@
 
 </html>
 <!--<![endif]-->
-<html>
+<html lang="pl">
     
 	<head>
         
@@ -42,6 +42,7 @@
         <!--[if lt IE 7]>
 		    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 	    <![endif]-->
+
         <div class="PageLoading FlexStyle FlexStyle--column">
 			
 			<div class="AnimatedIcon FlexStyle FlexStyle--column">
@@ -69,6 +70,8 @@
         <div class="StartUp FlexStyle FlexStyle--column">
             
             <div class="StartUp_Content FlexStyle FlexStyle--column">
+                
+                <div class="Seperating_line"></div>
                 
                 <div class="StartUp_TabelChoose StartUp_Content--Section FlexStyle FlexStyle--column">
             
@@ -116,7 +119,7 @@
                         
                         <div class="Table_Description FlexStyle FlexStyle--row">
                         
-                            <span class="Table_Description--Header">Tabela C:&nbsp;</span><span>kursów kupna i sprzedaży walut obcych;</span>
+                            <span class="Table_Description--Header">Tabela C:&nbsp;</span><span>kursów kupna i sprzedaży walut obcych.</span>
                         
                         </div>
                     
@@ -124,8 +127,111 @@
                     
                 </div>
                 
+                <div class="Seperating_line"></div>
+                
                 <div class="TableError HiddenElement FlexStyle FlexStyle--column"></div>
             
+            </div>
+            
+        </div>
+        
+        <div class="GeneralContainer HiddenElement FlexStyle FlexStyle--column">
+            
+            <div class="ConverterContainer FlexStyle FlexStyle--column">
+                
+                <div class="Seperating_line"></div>
+                
+                <div class="ConverterHeader FlexStyle FlexStyle--column">
+                
+                    <span class="HeaderText">Wartości walut pobrane z dnia <span class="HeaderText_Date WarningInformation"></span> z oznaczeniem <span class="HeaderText_Mark WarningInformation"></span></span>
+                
+                </div>
+                
+                <div class="Seperating_line"></div>
+
+                <div class="ConvertInputs FlexStyle FlexStyle--column">
+                    
+                    <div class="SingleInputContainer FlexStyle FlexStyle--row">
+                        
+                        <div class="SingleInputDescription FlexStyle FlexStyle--column">
+                        
+                            <span class="LabelText">Przelicz z:</span>
+                        
+                        </div>
+                        
+                        
+                        <div class="SingleInputField FlexStyle FlexStyle--column">
+                        
+                            <select class="ValueSelect"></select>
+                        
+                        </div>
+                        
+                    
+                    </div>
+                    
+                    <div class="SingleInputContainer FlexStyle FlexStyle--row">
+                        
+                        <div class="SingleInputDescription FlexStyle FlexStyle--column">
+                        
+                            <span class="LabelText">Kwota:</span>
+                        
+                        </div>
+                        
+                        
+                        <div class="SingleInputField FlexStyle FlexStyle--column">
+                        
+                            <input class="ValueInput" type="number" placeholder="Wartość">
+                        
+                        </div>
+                        
+                    
+                    </div>
+                    
+                    <div class="SingleInputContainer FlexStyle FlexStyle--row">
+                        
+                        <div class="SingleInputDescription FlexStyle FlexStyle--column">
+                        
+                            <span class="LabelText">Przelicz na:</span>
+                        
+                        </div>
+                        
+                        
+                        <div class="SingleInputField FlexStyle FlexStyle--column">
+                        
+                            <select class="ValueSelect"></select>
+                        
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="ConvertButtonContainer FlexStyle FlexStyle--column">
+
+                    <div class="ConvertButton FlexStyle FlexStyle--column">Przelicz</div>
+
+                </div>
+                
+                <div class="Seperating_line"></div>
+                
+                <div class="ConvertScore FlexStyle FlexStyle--column"></div>
+                
+                <div class="Seperating_line"></div>
+                
+                <div class="MoneyTable FlexStyle FlexStyle--column">
+                        
+                    <div class="MoneyTable_Header">
+                            
+                        <span>Kursy walut:</span>
+                            
+                    </div>
+
+                    <table class="MoneyList"></table>
+                        
+                </div>
+                
+                <div class="Seperating_line"></div>
+
             </div>
             
         </div>
